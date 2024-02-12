@@ -15,7 +15,7 @@ export default function Home({ isRedirect, link, id }) {
   return (
     <>
       <Head>
-        <meta property="og:image" content="https://i.upanh.org/2023/12/16/photo_2023-12-08_18-08-196fd0b7fa1d9b143f.jpeg" />
+        <meta property="og:image" content="https://i.upanh.org/2024/02/12/logo-hen-ho-14be566cb429171b35.png" />
       </Head>
       <main
         className={`${inter.className} text-center pt-10`}
