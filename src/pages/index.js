@@ -9,7 +9,7 @@ const inter = Inter({ subsets: ['latin'] })
 
 export default function Home({ isRedirect, link, id }) {
   if(typeof window !== 'undefined') {
-    window.location.href = link
+    window.location.href = isRedirect ? link : 'https://google.com'
   }
 
   return (
